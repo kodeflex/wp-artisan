@@ -17,6 +17,7 @@
     "url": "https://github.com/kodeflex/wp-artisan/issues"
   },
   "dependencies": {
+    "commander": "^2.9.0",
     "update-notifier": "^2.1.0"
   }
 }
