@@ -1,0 +1,22 @@
+{
+  "name": "wp-artisan",
+  "version": "0.0.1",
+  "description": "A command-line toolkit for WordPress developers",
+  "bin": {
+    "wp": "./bin/index.js"
+  },
+  "scripts": {},
+  "author": "thinkholic <mailtokasun@gmail.com> (http://www.thinkholic.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodeflex/wp-artisan.git"
+  },
+  "homepage": "https://github.com/kodeflex/wp-artisan#readme",
+  "bugs": {
+    "url": "https://github.com/kodeflex/wp-artisan/issues"
+  },
+  "dependencies": {
+    "update-notifier": "^2.1.0"
+  }
+}
