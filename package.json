@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "commander": "^2.9.0",
+    "fs": "0.0.1-security",
+    "shelljs": "^0.7.6",
     "update-notifier": "^2.1.0"
   }
 }
