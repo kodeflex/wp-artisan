@@ -5,6 +5,8 @@ A command-line toolkit for work on custom [WordPress](http://wordpress.org/) dev
 > This project is still at early (pre-alpha) stage.
 > I'd love to hear from anyone who wish to contribute. Feel free to submit issues, feature requests and any suggestions you mind. PRs are welcome! :-)
 
+> This project forked form [WordPress CLI](https://github.com/thinkholic/wordpress-cli/)
+
 ## Prerequisites
 
 You must require to install and configure followings on your development workstation first;
@@ -20,7 +22,7 @@ npm install -g wp-artisan
 
 ## Contribution Guide
 
-### Setup the development envirement
+### Setup the development environment
 
 You need to install and configure above `prerequisites` as listed.
 Then;
