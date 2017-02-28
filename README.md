@@ -1,5 +1,7 @@
 # wp-artisan
 
+[![npm version](https://badge.fury.io/js/wp-artisan.svg)](https://badge.fury.io/js/wp-artisan)
+
 A command-line toolkit for work on custom [WordPress](http://wordpress.org/) developments in an efficient way.
 
 > This project is still at early (pre-alpha) stage.
