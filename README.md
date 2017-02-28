@@ -14,12 +14,6 @@ You must require to install and configure followings on your development worksta
 * PHP 5.4 or higher
 * MySQL
 
-## Installation
-
-```
-npm install -g wp-artisan
-```
-
 ## Contribution Guide
 
 ### Setup the development environment
