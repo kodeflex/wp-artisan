@@ -1,0 +1,3 @@
+
+Initializing...
+Creating directory structure '<%= docRoot %>'.
