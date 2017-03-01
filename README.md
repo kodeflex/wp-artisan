@@ -43,7 +43,7 @@ You can either create a working directory first and run `wp init` in there or yo
 
 ### wp serve
 
-Once you created and initialized the development environment, you can start a server instance on http://localhost:8888 with wp serve (Or wp s).
+Once you created and initialized the development environment, you can start a server instance on http://localhost:8080 with wp serve (Or wp s).
 
 ```
 cd example.com
