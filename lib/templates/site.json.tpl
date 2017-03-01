@@ -9,5 +9,9 @@
     "mysqlDbPwd": "<%= mysqlDbPwd %>",
     "mysqlDbName": "<%= mysqlDbName %>",
     "mysqlDbTblPrefix": "<%= mysqlDbTblPrefix %>"
+  },
+  "server": {
+    "host": "<%= serverHost %>",
+    "port": "<%= serverPort %>"
   }
 }
