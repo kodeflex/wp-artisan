@@ -1,0 +1,17 @@
+{
+  "siteName": "rr",
+  "siteVersion": "1.0.0",
+  "cliVersion": "0.0.1",
+  "db": {
+    "mysqlDbHost": "127.0.0.1",
+    "mysqlDbPort": "3306",
+    "mysqlDbUser": "root",
+    "mysqlDbPwd": "",
+    "mysqlDbName": "asdas",
+    "mysqlDbTblPrefix": "wp_"
+  },
+  "server": {
+    "host": "localhost",
+    "port": "8080"
+  }
+}
