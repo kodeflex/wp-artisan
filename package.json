@@ -5,7 +5,10 @@
   "bin": {
     "wp": "./bin/index.js"
   },
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint ./bin ./lib",
+    "test": "npm run lint"
+  },
   "author": "thinkholic <mailtokasun@gmail.com> (http://www.thinkholic.com)",
   "license": "MIT",
   "repository": {
