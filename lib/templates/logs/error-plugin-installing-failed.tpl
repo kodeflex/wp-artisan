@@ -1,0 +1,1 @@
+✖  Invalid plugin name or version

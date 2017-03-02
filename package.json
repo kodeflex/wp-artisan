@@ -1,11 +1,14 @@
 {
   "name": "wp-artisan",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A command-line toolkit for WordPress developers",
   "bin": {
     "wp": "./bin/index.js"
   },
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint ./bin ./lib",
+    "test": "npm run lint"
+  },
   "author": "thinkholic <mailtokasun@gmail.com> (http://www.thinkholic.com)",
   "license": "MIT",
   "repository": {
@@ -17,6 +20,7 @@
     "url": "https://github.com/kodeflex/wp-artisan/issues"
   },
   "dependencies": {
+    "chalk": "^1.1.3",
     "commander": "^2.9.0",
     "fs": "0.0.1-security",
     "fs-extra": "^2.0.0",
@@ -26,5 +30,13 @@
     "node-wp-cli": "0.0.2",
     "shelljs": "^0.7.6",
     "update-notifier": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0"
   }
 }

@@ -1,0 +1,1 @@
+✔  Installing WordPress... success.

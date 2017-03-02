@@ -1,0 +1,2 @@
+
+Initializing theme directory... `<%= themeName %>`
