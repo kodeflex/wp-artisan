@@ -17,6 +17,7 @@
     "url": "https://github.com/kodeflex/wp-artisan/issues"
   },
   "dependencies": {
+    "chalk": "^1.1.3",
     "commander": "^2.9.0",
     "fs": "0.0.1-security",
     "fs-extra": "^2.0.0",
