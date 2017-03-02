@@ -73,12 +73,12 @@ wp plugin add <plunginName>
 wp plugin remove <plunginName>
 ```
 
-### wp template
+### wp theme
 
 Create empty theme canvas on the theme directory. Once you run this command, it'll prompt for user inputs related to creating a theme.
 
 ```
-wp template init
+wp theme init
 ```
 
 ## Contribution Guide
