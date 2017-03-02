@@ -92,6 +92,7 @@ Then;
 git clone git@github.com:kodeflex/wp-artisan.git
 cd wp-artisan
 git checkout dev
+npm install
 npm link
 ```
 
