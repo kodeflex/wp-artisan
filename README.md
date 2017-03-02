@@ -1,6 +1,6 @@
 # wp-artisan
 
-[![npm version](https://badge.fury.io/js/wp-artisan.svg)](https://badge.fury.io/js/wp-artisan) [![dependencies Status](https://david-dm.org/kodeflex/wp-artisan/status.svg)](https://david-dm.org/kodeflex/wp-artisan)
+[![npm version](https://badge.fury.io/js/wp-artisan.svg)](https://badge.fury.io/js/wp-artisan)
 
 A command-line toolkit for work on custom [WordPress](http://wordpress.org/) developments in an efficient way.
 
