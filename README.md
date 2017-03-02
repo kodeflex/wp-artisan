@@ -43,14 +43,14 @@ You can either create a working directory first and run `wp init` in there or yo
 
 ### wp serve
 
-Once you created and initialized the development environment, you can start a server instance on http://localhost:8080 with wp serve (Or wp s).
+Once you created and initialized the development environment, you can start a server instance on `http://localhost:8080` with `wp serve` (Or `wp s`).
 
 ```
 cd example.com
 wp serve
 ```
 
-You can change the port with the --port (Or -p) flag like this.
+You can change the port with the `--port` (Or `-p`) flag like this.
 
 ```
 wp serve -p 3000
@@ -97,7 +97,7 @@ npm link
 
 ### Pull requests
 
-Send all the PRs to `dev` branch. We keep master branch only for final releases and all the development works on the `dev`.
+Send all the PRs to `dev` branch. We keep `master` branch only for final releases and all the development works on the `dev`.
 
 ## License
 
