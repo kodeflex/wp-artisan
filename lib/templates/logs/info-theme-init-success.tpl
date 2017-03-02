@@ -1,0 +1,2 @@
+✔  Theme created at
+   <%= themeDir %>

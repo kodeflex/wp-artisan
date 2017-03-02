@@ -1,0 +1,1 @@
+✔  Plugin removed successfully
