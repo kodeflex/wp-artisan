@@ -20,22 +20,22 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', '<%= mysqlDbName %>');
+define('DB_NAME', '<%= db.NAME %>');
 
 /** MySQL database username */
-define('DB_USER', '<%= mysqlDbUser %>');
+define('DB_USER', '<%= db.MYSQL_USER %>');
 
 /** MySQL database password */
-define('DB_PASSWORD', '<%= mysqlDbPwd %>');
+define('DB_PASSWORD', '<%= db.MYSQL_PASSWORD %>');
 
 /** MySQL hostname */
-define('DB_HOST', '<%= mysqlDbHost %>:<%= mysqlDbPort %>');
+define('DB_HOST', '<%= db.MYSQL_HOST %>:<%= db.MYSQL_PORT %>');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', '<%= db.CHARSET %>');
 
 /** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
+define('DB_COLLATE', '<%= db.COLLATE %>');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -63,7 +63,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = '<%= mysqlDbTblPrefix %>';
+$table_prefix  = '<%= db.TBL_PREFIX %>';
 
 /**
  * For developers: WordPress debugging mode.
@@ -77,13 +77,42 @@ $table_prefix  = '<%= mysqlDbTblPrefix %>';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', <%= wp.WP_DEBUG %>);
+
+/**
+ * Speed: Set WordPress Post Revisions
+ *
+ * @parm Boolean or Interger 
+ */
+define('WP_POST_REVISIONS', <%= wp.WP_POST_REVISIONS %>);
+
+/**
+ * Change the Autosave Interval
+ */
+define('AUTOSAVE_INTERVAL', <%= wp.AUTOSAVE_INTERVAL %> ); // the value should be in seconds!
+
+/* PHP Memory */
+define( 'WP_MEMORY_LIMIT', '<%= wp.WP_MEMORY_LIMIT %>' );
+define( 'WP_MAX_MEMORY_LIMIT', '<%= wp.WP_MAX_MEMORY_LIMIT %>' );
+
+/**
+ * Speed: Change the Filesystem Method
+ * 
+ * The code below makes it easier for you by forcing the filesystem
+ * to use direct file I/O request from within PHP – in other words, 
+ * you won’t need to enter FTP credentials anymore.
+ */
+define('FS_METHOD', '<%= wp.FS_METHOD %>');
+
+/* SSL */
+define( 'FORCE_SSL_LOGIN', <%= wp.FORCE_SSL_LOGIN %>);
+define( 'FORCE_SSL_ADMIN', <%= wp.FORCE_SSL_ADMIN %>);
 
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+  define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
