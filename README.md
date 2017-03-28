@@ -27,7 +27,7 @@ npm install -g wp-artisan
 ### wp init
 
 ```
-wp init [path]
+wp init [dir]
 ```
 
 This perform following tasks;
