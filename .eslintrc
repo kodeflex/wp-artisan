@@ -4,7 +4,7 @@
     "es6": true,
     "node": true
   },
-  "extends": "airbnb",
+  "extends": ["airbnb", "prettier"],
   "parser": "babel-eslint",
   "rules": {
     // code arrangement matter
@@ -23,5 +23,13 @@
     "max-len": [2, 100, 4],
 
     "import/prefer-default-export": 0
+  },
+  {
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error"
   }
+}
 }
