@@ -7,7 +7,9 @@
   },
   "scripts": {
     "lint": "eslint ./bin ./lib",
-    "test": "npm run lint"
+    "prettier": "prettier --write ./lib/**/*.js ./lib/**/*.css ./lib/**/*.json ./bin/**/*.js",
+    "test": "npm run lint",
+    "precommit": "npm run lint && npm run prettier"
   },
   "author": "thinkholic <mailtokasun@gmail.com> (http://www.thinkholic.com)",
   "license": "MIT",
@@ -35,8 +37,13 @@
     "babel-eslint": "^7.1.1",
     "eslint": "^3.16.1",
     "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-prettier": "^2.6.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.0"
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^6.10.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0",
+    "prettier": "^1.7.4"
   }
 }
