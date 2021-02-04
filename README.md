@@ -8,4 +8,4 @@ A command-line toolkit for work on custom [WordPress](http://wordpress.org/) dev
 
 > This project forked form [WordPress CLI](https://github.com/thinkholic/wordpress-cli/).
 
-> This project has moved to [99xt/wp-artisan](https://github.com/99xt/wp-artisan) now.
+> The project is depricated as we couldn't actively involve in further development. Please use [`WP_CLI`](https://wp-cli.org/) instead. It's fully fledge alternative for what we were planning to do even it's not the same thing.
