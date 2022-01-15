@@ -30,7 +30,7 @@
     "lodash": "^4.17.4",
     "mysql": "^2.13.0",
     "node-wp-cli": "0.0.2",
-    "shelljs": "^0.7.6",
+    "shelljs": "^0.8.5",
     "update-notifier": "^2.1.0"
   },
   "devDependencies": {
